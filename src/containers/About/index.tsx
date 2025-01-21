@@ -1,5 +1,5 @@
-import Title from '../Components/Title'
-import Paragraph from '../Components/Paragraph'
+import Title from '../../Components/Title'
+import Paragraph from '../../Components/Paragraph'
 import { GithubSection } from './style'
 
 const About = () => (
