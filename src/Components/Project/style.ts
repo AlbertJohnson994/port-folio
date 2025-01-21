@@ -9,7 +9,7 @@ export const LinkButton = styled.a`
   font-size: 14px;
   background-color: #4476bf;
   text-decoration: none;
-  pading: 8px;
+  padding: 8px;
   display: inline-block;
   margin-top: 24px;
 `

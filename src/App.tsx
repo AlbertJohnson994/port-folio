@@ -2,6 +2,7 @@ import About from './containers/About'
 import Projects from './containers/Projects'
 import Sidebar from './containers/Sidebar'
 import EstiloGlobal, { Container } from './style'
+import React from 'react'
 
 function App() {
   return (

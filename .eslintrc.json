@@ -16,7 +16,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "react", "react-hooks"],
+  "plugins": ["@typescript-eslint", "react", "react-hooks", "prettier"],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
@@ -26,12 +26,17 @@
     "@typescript-eslint/no-unused-expressions": [
       "error",
       { "allowShortCircuit": true }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
     ]
   },
   "settings": {
     "react": {
-      "version": "detect",
-      "defaultVersion": ""
+      "version": "detect"
     }
   }
 }

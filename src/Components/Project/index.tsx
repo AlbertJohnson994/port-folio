@@ -1,5 +1,6 @@
 import Paragraph from '../Paragraph'
 import Title from '../Title'
+import React from 'react'
 
 import { Card, LinkButton } from './style'
 
