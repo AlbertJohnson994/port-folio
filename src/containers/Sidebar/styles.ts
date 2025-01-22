@@ -13,6 +13,9 @@ export const ButtonTheme = styled.button`
   color: #eee;
   padding: 8px;
   cursor: pointer;
+  justify-content: center;
+  padding: 12px;
+  margin: 5px;
 `
 export const SidebarContainer = styled.div`
   position: sticky:
