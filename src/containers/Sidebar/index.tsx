@@ -7,7 +7,11 @@ import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 import { Description, ButtonTheme, SidebarContainer } from './styles'
 
-const Sidebar = () => (
+type Props = {
+  changeTheme: () => void
+}
+
+const Sidebar = (props: Props) => (
   <aside>
     <SidebarContainer>
       <Avatar />
@@ -63,7 +67,7 @@ const Sidebar = () => (
         </ButtonTheme>
       </a>
 
-      <ButtonTheme>Change Theme</ButtonTheme>
+      <ButtonTheme onClick={props.changeTheme}>Change Theme</ButtonTheme>
     </SidebarContainer>
   </aside>
 )

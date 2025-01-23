@@ -8,9 +8,9 @@ export const Description = styled(P)`
 export const ButtonTheme = styled.button`
   font-size: 10px;
   border-radius: 12px;
-  background-color: #282a35;
+  background-color: ${(props) => props.theme.corPrincipal};
   font-weight: bold;
-  color: #eee;
+  color: ${(props) => props.theme.corDeFundo};
   padding: 8px;
   cursor: pointer;
   justify-content: center;
@@ -21,4 +21,9 @@ export const SidebarContainer = styled.div`
   position: sticky:
   top: 80px;
   left: 0;
+
+  @media (max-width: 768px) {
+    margin-bottom: 40px;
+    text-align: center;
+  }
 `
