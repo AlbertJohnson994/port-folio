@@ -10,6 +10,7 @@ padding: 0;
  list-style: none;
 }
 
+
 body {
   padding-top:80px;
   padding-bottom:80px;

@@ -7,10 +7,11 @@ const About = () => (
   <section>
     <Title fontSize={16}>About</Title>
     <Paragraph tipo="secondary">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste ea, illum
-      optio totam maxime necessitatibus magni dolorum repellendus similique hic
-      repellat atque quia quae assumenda? Ducimus reiciendis dignissimos id
-      harum!
+      A passionate and detail-oriented Full Stack Developer with a robust
+      background in software development, education, and leadership. Proficient
+      in modern web development technologies and committed to building
+      innovative and efficient solutions. Adept at collaborating within teams,
+      solving complex problems, and delivering high-quality projects on time.
     </Paragraph>
     <GithubSection>
       <img src="https://github-readme-stats.vercel.app/api?username=AlbertJohnson994&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />

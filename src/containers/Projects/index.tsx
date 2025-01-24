@@ -5,7 +5,7 @@ import React from 'react'
 import { List } from './styles'
 
 const Projects = () => (
-  <section>
+  <section id="Projects">
     <Title fontSize={16}>Projects</Title>
     <List>
       <li>

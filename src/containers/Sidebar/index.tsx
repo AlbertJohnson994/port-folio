@@ -15,7 +15,7 @@ const Sidebar = (props: Props) => (
   <aside>
     <SidebarContainer>
       <Avatar />
-      <Title fontSize={20}>Albert Johnson</Title>
+      <Title fontSize={17}>Albert Johnson</Title>
       <Paragraph tipo="secondary" fontSize={16}>
         AlbertJohnson994
       </Paragraph>
